@@ -357,7 +357,7 @@
       <h1>Privacy Policy</h1>
     </div>
   </div>
-  <div class="updated">Last updated: September 11, 2026</div>
+  <div class="updated">Last updated: September 18, 2026</div>
 
   <nav class="toc" aria-label="Sections">
     <a href="#intro"><span class="toc-num">1</span>Introduction</a>
@@ -380,6 +380,7 @@
       <ul>
         <li>We store your email, your kids' first names &amp; ages, your saved places, and your preferences — tied to your account.</li>
         <li>Your location is used live, on your device, to fetch weather and nearby places. We do not store your location history.</li>
+        <li>We log anonymous in-app usage (which page was viewed, which place/event was opened) to understand what's useful — never tied to your account.</li>
         <li>No advertising, no analytics SDKs, no data brokers, and we never sell your data.</li>
         <li>You can delete your account and everything in it, permanently, from the Profile tab at any time.</li>
       </ul>
@@ -411,11 +412,14 @@
       <h3>2.3 Location</h3>
       <p>GoOutToday asks for your device's location to show local weather and nearby recommendations. This is used live, at the moment you open the app — <strong>we do not store your location history on our servers.</strong> It's sent, per request, to the weather service and mapping service described in <a href="#third-party">Section 4</a>.</p>
 
+      <h3>2.4 Usage analytics</h3>
+      <p>We log anonymous in-app usage events — which page was viewed, which place, event, or offer was opened, whether the Quick Decision wizard was completed — to understand which features are actually useful. Each event is just an event name plus a place/activity ID; it is <strong>not linked</strong> to your account, email, or user ID. This is written directly to our own Supabase database — no third-party analytics SDK is used.</p>
+
       <div class="not-collected">
         <h3>What we don't collect</h3>
         <ul>
           <li>No advertising or device identifiers</li>
-          <li>No analytics or crash-reporting SDKs</li>
+          <li>No third-party analytics or crash-reporting SDKs</li>
           <li>No payment information — GoOutToday has no purchases</li>
           <li>No browsing or usage tracking across other apps or websites</li>
         </ul>
@@ -430,6 +434,7 @@
         <li>Showing local weather and air quality, and factoring them into today's picks</li>
         <li>Keeping your saved places and family setup in sync if you use the app on another device</li>
         <li>Signing you in and securing your account</li>
+        <li>Understanding which features people actually use, via the anonymous usage analytics described in Section 2.4</li>
       </ul>
       <p>We do <strong>not</strong> sell, rent, or share your personal data with third parties for advertising or any other commercial purpose.</p>
     </section>
